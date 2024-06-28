@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang=”en”>
+<html>
+<head>
+<title>EXAMPLE FORM</title>
+</head>
+<body style="text-align: left;">
+<h1>PERSONAL INFORMATION</h1><hr>
+<form action="contact.php">
+
+<h2>PERSONAL DETAILS</h2>
+<label for="name">NAME*</label><br>
+<select>
+<option value="Mr">Mr</option>
+<option value="Mrs">Mrs</option>
+</select>
+<input type="text" id="name" name="Name" placeholder="Enter Name" required="true"><br><br>
+
+<label for="father-name">FATHER'S NAME*</label><br>
+<input type="text" id="father-name" name="Father's-name" placeholder="Enter Father's Name" required="true"><br><br>
+
+<label for="mother-name">MOTHER'S NAME*</label><br>
+<input type="text" id="mother-name" name="Mother's-name" placeholder="Enter Mother's Name" required="true"><br><br>
+
+<label for="dob">DOB*</label><br>
+<input type="date" id="dob" name="date-of-birth" required="true"><br><br>
+
+<label for="nationality">NATIONALITY*</label><br>
+<input type="text" id="nationality" value="Indian" name="nationality" required="true" style="width: 45px;"><br><br>
+
+<label for="gender">GENDER*</label><br>
+<select id="gender" required="true">
+<option value="Male">Male</option>
+<option value="Female">Female</option>
+</select><br><br>
+
+<label for="marital-status">MARITAL STATUS</label><br>
+<label for="married">Married</label>
+<input type="radio" id="married" class="marital-status" name="marital-status" value"Married">
+<label for="unmarried">Unmarried</label>
+<input type="radio" id="unmarried" class="marital-status" name="marital-status" value"Unmarried"><br><br>
+
+
+<h2>COMMUNICATION DETAILS</h2>
+<label for="primary-email">PRIMARY EMAIL ID*</label><br>
+<input type="text" id="primary-email" name="primary-email" placeholder="Enter Primary-email ID" required="true"><br><br>
+
+<label for="primary-mobile-number">PRIMARY MOBILE NUMBER*</label><br>
+<input type="text" value="+91" style="width: 25px;">
+<input type="text" id="primary-mobile-number" name="primary-mobile-number" placeholder="Enter Primary Mobile Number " required="true"><br><br>
+
+<label for="id-card">ID CARD*</label><br>
+<input type="text" id="id-card" name="id-card" placeholder="Enter Id Card" required="true"><br><br>
+
+<label for="id-card-number">ID CARD NUMBER*</label><br>
+<input type="text" id="id-card-number" name="id-card-number" placeholder="Enter Id Card Number" required="true"><br><br>
+
+<input type="submit">
+
+</form>
+</body>
+</html>
